@@ -1,0 +1,10 @@
+Package: NutriScore
+Type: Package
+Title: Impact du changement d'algorithme NutriScore
+Version: 0.1.0
+Author: Jonathan Thevenot
+Maintainer: The package maintainer <jonathan.thevenot@adria.tm.fr>
+Description: Impact du changement d'algorithme NutriScore.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
