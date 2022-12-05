@@ -21,7 +21,7 @@ score_nut <- function(x){
 score_nut2023 <- function(x){
 
   res = 0
-  if(Compo_N2023(x) >= 11) { res <- Compo_N2023(x) - (fibre(x$fibre) + FL(x$FL))
+  if(Compo_N2023(x) >= 11) { res <- Compo_N2023(x) - (fibre2023(x$fibre) + FL(x$FL))
   } else if(Compo_N2023(x) < 11) { res <- Compo_N2023(x) - Compo_P2023(x)
   }
 
